@@ -1,0 +1,633 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* CW brown font */
+
+#brown-font {
+    color: #983222;
+}
+
+
+/* Modal for Acknowledgemnt Message */
+
+
+/* The Modal (background) */
+
+.modal {
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* z-index of 1 - Sit on top of webpage, 2 - also sits on top but can seen black opacity background */
+    padding-top: 180px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+/* The Close Button */
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+.modal-body {
+    padding: 80px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: white;
+    color: white;
+}
+
+
+/* Navigation bar #1 */
+
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #5E3032, #983222, #E37222, #DF7A00);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    /* background-color: #DF7A00;
+    color: black; */
+    text-decoration: underline;
+}
+
+
+/* Navigation bar #2 */
+
+
+/* .navbar-left a #logo:hover {
+    background-color: #DF7A00;
+} */
+
+
+/* #logo {
+    width: 100%;
+    height: auto;
+} */
+
+
+/* Links on RHS */
+
+.navbar-right {
+    padding-top: 45px;
+    font-size: 1.1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-right .w3-button {
+    background-image: linear-gradient(to right, #5E3032, #983222, #E37222, #DF7A00), linear-gradient(white, white);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+}
+
+.w3-button:hover {
+    background-size: 100% 5px, auto;
+}
+
+
+/* ALTERNATE METHOD - Navigation bar #2 
+
+@media screen and (max-width: 600px) {
+    .topnav2 a:not(:first-child) {
+        display: none;
+    }
+    .topnav2 a.navbar-right2 {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav2.responsive {
+        position: relative;
+    }
+    .topnav2.responsive .navbar-right2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav2.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.navbar-right2 {
+    padding-top: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-right2 .w3-button {
+    background-image: linear-gradient(to right, #5E3032, #983222, #E37222, #DF7A00), linear-gradient(white, white);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+} */
+
+
+/* Hover for Side bar on small screens */
+
+
+/* Set up the hover - If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+
+#mySidebar .w3-button {
+    background-image: linear-gradient(to right, #5E3032, #983222, #E37222, #DF7A00), linear-gradient(white, white);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: all .2s ease-out;
+}
+
+
+/* The following line makes the underline for the whole button: background-size: 100% 5px, auto; */
+
+
+/* The following line makes the underline only as wide as the text */
+
+#mySidebar .w3-button:hover {
+    background-size: calc(100% - 2em) 5px, auto;
+}
+
+
+/* Header with full-height image - Responsive Image with Transparent Text */
+
+
+/* Old version */
+
+.bgimg-1 {
+    background-image: url("img/childcare.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    opacity: 0.8;
+}
+
+.bgimg-1 .img-text {
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+.ndis {
+    position: absolute;
+    top: 200px;
+    left: 18px;
+}
+
+.title {
+    position: absolute;
+    bottom: 260px;
+    left: 18px;
+}
+
+.container img {
+    vertical-align: middle;
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.container .small-content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.header-text {
+    font-size: 3vw;
+}
+
+.w3-bar .w3-button {
+    padding: 10px 30px;
+}
+
+
+/* New version - with black transparent box at bottom of image header */
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/childcare.jpg");
+    min-height: 100%;
+}
+
+.ndis-logo {
+    height: 120px;
+    width: 120px;
+}
+
+.trans-box {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.4);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+}
+
+
+/* en-button on top nav #1 */
+
+.en-button {
+    background-color: #5E3032;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 26px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/* Button links in CW brown font */
+
+.cw-button {
+    background-color: #983222;
+    opacity: 0.7;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.cw-button:hover {
+    background-color: #983222;
+    color: white;
+    border: none;
+    opacity: 1;
+}
+
+
+/* Old version - Header Image for ALL other Tabs */
+
+.container2 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/bannerbg2.png");
+    min-height: 100%;
+}
+
+.container .content2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 20px 20px 40px;
+}
+
+
+/* Grey containers */
+
+#grey-container {
+    background-color: #E9E8E8;
+}
+
+
+/* staff-container om our story */
+
+.back {
+    position: relative;
+    /*width: 100%;
+    height: 100%;*/
+    box-shadow: 10px 10px 0 #DF7A00, -10px -10px 0 #5E3032;
+    border-radius: 50%;
+    animation: rotate 4s infinite linear;
+}
+
+.profile {
+    border-radius: 50%;
+    /* width: 100%;
+    height: 100%;*/
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.profile:hover {
+    background-size: 110%;
+    box-shadow: 10px 10px 0 #5E3032, -10px -10px 0 #DF7A00;
+}
+
+
+/* Lists style */
+
+ul {
+    list-style: disc outside none;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.activities-column {
+    float: left;
+    width: 50%;
+    /* height: 150px;
+    Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.activities-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Back to top button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#myBtn:hover {
+    background-color: #DF7A00;
+    color: white;
+}
+
+
+/* Accordion style for Referral page */
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\2228';
+    /* \002B - Unicode character for "plus" sign (+) */
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\2227';
+    /* \2212 - Unicode character for "minus" sign (-) */
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+    padding: 0 18px;
+    background-color: #E9E8E8;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* add space between the accordions */
+    margin: 10px;
+}
+
+
+/* Format the input boxes on forms */
+
+input[type=text],
+[type=email],
+[type=number],
+[type=date],
+[type=tel],
+select,
+textarea {
+    width: 50%;
+    /*padding: 12px;*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Submit button on forms */
+
+input[type=submit] {
+    background-color: #983222;
+    opacity: 0.7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*float: right;*/
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    background-color: #983222;
+    opacity: 1;
+}
+
+
+/* Footer #2 */
+
+.underhov a {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.underhov a:hover {
+    text-decoration: underline;
+}

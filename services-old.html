@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Our Services</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 Schools Template -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- external font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <div class="w3-top">
+        <!-- Nav bar stays at the top -->
+        <div class="topnav w3-hide-small w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.google.com/maps/dir/-33.8460672,150.9883904/cameron+wellness+centre/@-35.9062919,143.2872305,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6ad415abe45d329b:0x8a4de8d4b5d30a08!2m2!1d144.3641724!2d-38.1497819" target="_blank"><i class="fa fa-map-marker" ></i>    GETTING TO THE CENTRE</a>
+            <a href="#phone"><i class="fa fa-phone-square"></i>    02 1234 5678</a>
+        </div>
+        <!-- Nav bar (sit on top) -->
+        <!-- CW Logo -->
+        <div class="w3-bar w3-white w3-card w3-xlarge" id="myNavbar">
+            <div class="navbar-left">
+                <a href="index.html" class="w3-bar-item">
+                    <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Nav bar Right Links -->
+            <div class="navbar-right w3-hide-small w3-hide-medium w3-right">
+                <a href="index.html" class="w3-bar-item w3-button">Home</a>
+                <a href="services.html" class="w3-bar-item w3-button">Services</a>
+                <a href="story.html" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral.html" class="w3-bar-item w3-button">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="navbar-right w3-bar-item w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Nav bar (sit on top) - ALTERNATE METHOD 
+       ******************************************************************************
+            CW Logo 
+        <div class="topnav2 w3-bar w3-white w3-card" id="myNavbar">
+            <div class="navbar-left2">
+                <a href="#home" class="w3-bar-item w3-button">
+                    <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Nav bar Right Links 
+            <div class="navbar-right2 w3-hide-small w3-hide-medium w3-right">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#services" class="w3-bar-item w3-button">Services</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#contact" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral" class="w3-bar-item w3-button" target="_blank">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon 
+            <a href="javascript:void(0)" class="navbar-right2 w3-bar-item w3-button w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+            </div>
+        ******************************************************************************
+        -->
+
+
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <!-- display:none means side bar is hidden by default -->
+    <nav id="mySidebar" class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-large" style="display:none">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+        <a href="story.html" onclick="w3_close()" class="w3-bar-item w3-button">Our Story</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+        <a href="referral.html" onclick="w3_close()" class="w3-bar-item w3-button">Make a Referral</a>
+    </nav>
+
+
+
+
+    <!-- Header with full-height image 
+    <header class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px;  margin: 100px;">
+            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+
+            <div class="img-text">
+                <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+                <span class="w3-large ">Learn more and start today.
+                <a href="#referral" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off ">Make a Referral</a>
+            </span>
+                <span class="w3-large "><p>Cameron Wellness Centre is a unique and progressive NDIS Registered & Kinaway-certified provider focused on providing comprehensive therapeutic supports to all people throughout Victoria.</p></span>
+            </div>
+
+        </div>
+
+    </header>-->
+
+    <!-- Header with full-height image - Responsive Image with Transparent Text -->
+    <header class="container">
+
+        <img src="img/bannerbg.png" alt="CW Background" style="width:100%;">
+        <div class="content2">
+            <p class="w3-text-black " style="font-size: 4vw; font-weight: bold;">Our Services</p>
+        </div>
+    </header>
+
+    <!-- Container (Services Section with links) -->
+    <div class="w3-content w3-row  w3-padding-64" id="about">
+        <div class="w3-full w3-left-align">
+            <p>Through our transparent approach and clinical fortitude, we aim to make a real difference in the lives of all Australians by offering a multi-disciplinary approach in Occupational Therapy, Early Childhood Early Intervention & Speech Pathology.</p>
+        </div>
+        <div class="serlinks w3-center w3-third m6 w3-padding-64 ">
+            <a href="#ot">
+                <img id="hovlinks" src="img/ot.png" alt="OT" style="filter: opacity(0.4);" width="100px" height="100px">
+            </a>
+        </div>
+        <div class="serlinks w3-center w3-third m6 w3-padding-64">
+            <a href="#earlychild">
+                <img src="img/ecei.png" alt="ECEI" style="filter: opacity(0.4);" width="160px" height="100px">
+            </a>
+        </div>
+        <div class="serlinks w3-center w3-third m6 w3-padding-64">
+            <a href="#sp">
+                <img src="img/sp.png" alt="SP" style="filter: opacity(0.4);" width="100px" height="100px">
+            </a>
+        </div>
+    </div>
+
+
+
+    <!-- Container (Occupational Therapy) -->
+    <div class="w3-content w3-row w3-padding-24" id="grey-container">
+        <div id="ot" class="w3-half w3-padding-large">
+            <img src="img/occtherapy.png" class="w3-round w3-image" alt="Sensory Room" width="600" height="350">
+        </div>
+        <div class="w3-half w3-left w3-padding-large">
+            <h3>Occupational Therapy</h3>
+            <p>Occupational Therapists are skilled in a number of areas, including mental health, rehabilitation, pain management, driving assessments and paediatrics. They can help you to identify interests and goals, manage daily routines at home and in
+                the community, modify daily tasks to make them easier to perform and recommend activities that you can effectively participate in.</p>
+        </div>
+    </div>
+
+    <!-- Container (Early Childhood) -->
+    <div class="w3-content  w3-row  w3-padding-24" style="background-color: white;" id="grey-container ">
+        <div id="earlychild" class="w3-half w3-padding-large">
+            <img src="img/earlychild.png" class="w3-round w3-image " alt="Sensory Room" width="600" height="350">
+        </div>
+        <div class="w3-half w3-left w3-padding-large">
+            <h3>Early Childhood Early Intervention</h3>
+            <p>An early intervention specialist aids families of young children who have developmental delays or are at risk for them. Their duties include assessing the child’s development and inquiring about contributing factors such as environment and
+                medical history. We may work in the homes of individual clients, in schools alongside special education teachers, or in a therapy clinic. Our job is to oversee each case and arrange for necessary intervention, such as speech, physical,
+                or occupational therapy.</p>
+        </div>
+    </div>
+
+    <!-- Container (Speech Pathology) -->
+    <div class="w3-content w3-row w3-padding-24" id="grey-container">
+        <div id="sp" class="w3-half w3-padding-large">
+            <img src="img/speechpath.png" class="w3-round w3-image" alt="Sensory Room" width="600" height="350">
+        </div>
+        <div class="w3-half w3-left w3-padding-large">
+            <h3>Speech Pathology</h3>
+            <p>Speech Pathologists study, diagnose and treat communication disorders, including difficulties with speaking, listening, understanding language, reading, writing, social skills, stuttering and using voice. They work with people who have difficulty
+                communicating because of developmental delays, stroke, brain injuries, learning disability, intellectual disability, cerebral palsy, dementia and hearing loss, as well as other problems that can affect speech and language. People who experience
+                difficulties swallowing food and drink safely can also be helped by a speech pathologist.</p>
+        </div>
+    </div>
+    <!-- Add space below speech pathology -->
+    <div class="w3-content w3-row w3-padding-32">
+
+    </div>
+
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+
+
+    <!-- Footer (top) - Contact Us -->
+    <footer class="w3-row" id="contactus">
+        <div class="w3-half w3-light-grey w3-container" style="height:600px;">
+            <div class="w3-padding-32;" style="padding-left:20px">
+                <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;">
+                <h5>CALL US</h5>
+                <h4 style="color:#5E3032">1800 000 292</h4>
+                <br>
+                <h5>EMAIL</h5>
+                <h4 style="color:#5E3032">hello@cameronwellnesscentre.com.au</h4>
+                <br>
+                <img src="img/locationicon2.png" alt="location" style="max-width:30px; max-height: 30px;">
+                <h5>ADDRESS</h5>
+                <p>Suite 5a/170 Little Malop St, Geelong 3220, Victoria, Australia.</p>
+
+
+            </div>
+        </div>
+        <div class="w3-half w3-light-grey w3-container" style="height:600px">
+            <div class="w3-padding-16" style="padding-right:20px">
+                <h3 style="font-weight:bold;">Get In Touch</h3>
+                <form class="w3-container w3-padding-80 " action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" style="width:100%;" required name="Name">
+                    </div>
+                    <div class="w3-section">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" style="width:100%;" required name="Email">
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <textarea id="message" name="message" style="height:100px; width: 100%;" required name="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer (bottom) -->
+    <footer class="w3-row" id="bot-footer">
+        <div class="w3-third w3-center w3-black w3-container" style="height:180px;">
+            <div class="w3-padding-64;" style="padding:20px">
+                <img src="img/ndis3.png" alt="img" style="max-width: 80px; max-height: 80px;">
+                <img src="img/Kinaway-Certified-Logo.png" alt="location" style="max-width:80px; max-height: 80px;">
+                <img src="img/aboriginalFlag.png" alt="location" style="max-width:80px; max-height:80px;">
+                <img src="img/torresstraitFlag.png" alt="location" style="max-width:80px; max-height: 80px;">
+
+            </div>
+        </div>
+        <div class="w3-third w3-center w3-black w3-container;" style="height:180px; padding:5px;">
+
+            <p>CONNECT WITH US</p>
+            <p>Keep up to date with what’s happening at the Cameron Wellness Centre.</p>
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px;"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+        <div class="underhov w3-third w3-center w3-black w3-container;" style="height:180px; padding:5px;">
+            <a href="terms.html" class="w3-black" style="padding-right: 20px;">Terms of Use</a>
+            <a href="privacy.html" class="w3-black" style="padding-right: 20px;">Privacy policy</a>
+
+        </div>
+    </footer>
+
+    <!-- Footer (bottom) -->
+    <footer class="w3-container w3-card w3-center w3-black w3-border-top">
+
+        <p class="w3-medium">Copyright <i class="fa fa-copyright "></i> 2023 Cameron Wellness Centre. All rights reserved.</a>
+        </p>
+    </footer>
+
+
+
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01 ").src = element.src;
+            document.getElementById("modal01 ").style.display = "block ";
+            var captionText = document.getElementById("caption ");
+            captionText.innerHTML = element.alt;
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myNavbar ");
+            if (x.className === "topnav2 ") {
+                x.className += " responsive ";
+            } else {
+                x.className = "topnav2 ";
+            }
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar ");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none ";
+        }
+
+        // Back to top button
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

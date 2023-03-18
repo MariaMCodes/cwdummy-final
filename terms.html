@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Website Terms of Use</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 Schools Template -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- external font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="w3-top">
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-small w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.google.com/maps/dir/-33.8460672,150.9883904/cameron+wellness+centre/@-35.9062919,143.2872305,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6ad415abe45d329b:0x8a4de8d4b5d30a08!2m2!1d144.3641724!2d-38.1497819" target="_blank"><i class="fa fa-map-marker" ></i>    GETTING TO THE CENTRE</a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i>    02 1234 5678</a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-medium w3-hide-large w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i></a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #2 stays at the top -->
+        <!-- CW Logo -->
+        <div class="w3-bar w3-white w3-card " id="myNavbar">
+            <div class="navbar-left">
+                <a href="index.html" class="w3-bar-item">
+                    <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Links on RHS -->
+            <div class="navbar-right w3-hide-small w3-hide-medium w3-right">
+                <a href="index.html" class="w3-bar-item w3-button ">Home</a>
+                <a href="services.html" class="w3-bar-item w3-button">Services</a>
+                <a href="story.html" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral.html" class="w3-bar-item w3-button">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item  w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+
+
+        </div>
+    </div>
+
+    <!-- Nav bar (sit on top) - ALTERNATE METHOD 
+       ******************************************************************************
+            CW Logo 
+        <div class="topnav2 w3-bar w3-white w3-card" id="myNavbar">
+            <div class="navbar-left2">
+                <a href="#home" class="w3-bar-item w3-button">
+                    <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Nav bar Right Links 
+            <div class="navbar-right2 w3-hide-small w3-hide-medium w3-right">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#services" class="w3-bar-item w3-button">Services</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#contact" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral" class="w3-bar-item w3-button" target="_blank">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon 
+            <a href="javascript:void(0)" class="navbar-right2 w3-bar-item w3-button w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+            </div>
+        ******************************************************************************
+        -->
+
+
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <!-- display:none means side bar is hidden by default -->
+    <nav id="mySidebar" class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-large" style="display:none">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 fa fa-remove w3-right">   Close <!--&times;--></a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+        <a href="story.html" onclick="w3_close()" class="w3-bar-item w3-button">Our Story</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+        <a href="referral.html" onclick="w3_close()" class="w3-bar-item w3-button">Make a Referral</a>
+    </nav>
+
+
+
+
+
+    <!-- Header with full-height image 
+    <header class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px;  margin: 100px;">
+            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+
+            <div class="img-text">
+                <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+                <span class="w3-large ">Learn more and start today.
+                <a href="#referral" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off ">Make a Referral</a>
+            </span>
+                <span class="w3-large "><p>Cameron Wellness Centre is a unique and progressive NDIS Registered & Kinaway-certified provider focused on providing comprehensive therapeutic supports to all people throughout Victoria.</p></span>
+            </div>
+
+        </div>
+
+    </header>-->
+
+    <!-- CW Logo Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+        <img class="w3-image" src="img/bannerbg2.png" alt="CW Logo" width="1500px" height="800px">
+        <div class="w3-display-left w3-margin-top w3-center">
+            <span class="w3-jumbo w3-hide-small w3-hide-medium" style="color:#5E3032; padding:48px"><strong>Website Terms of Use</strong></span>
+        </div>
+        <div class="w3-display-bottomleft w3-margin-top w3-center">
+            <span class="w3-xxlarge  w3-hide-large" style="color:#5E3032; padding:20px;"><strong>Terms of Use</strong></span>
+
+        </div>
+    </header>
+
+    <!-- Container (Terms Section) -->
+    <div class="w3-content w3-container  w3-padding-64">
+
+        <p>Welcome to the website of Cameron Wellness Centre Pty Ltd (ACN 650 769 734) (“we”, “us” or the “Company”), cameron Wellness Centre (CWC) is a Kinaway certified Indigenous NDIS provider specialising in capacity building therapeutic supports and
+            assistance for all Australians with a focus on First Nations participants.</p>
+        <p>This website is located on the web via the domain <a href="https://cameronwellnesscentre.com.au">www.cameronwellnesscentre.com.au</a> and includes all of the files located in that domain (“this site”).</p>
+        <br>
+        <h3>Agreement to these Website Terms of Use</h3>
+        <p>By accessing this site, you agree to be bound by these terms of use (“Website Terms of Use”). These Website Terms of Use constitute a binding agreement between you and the Company and govern your use of this site.
+            <p>
+                <p><strong>Privacy Policy</strong></p>
+
+                <p>As part of these Website Terms of Use, your use of this site is also subject to our Privacy Policy (located at www.cameronwellnesscentre.com.au/privacy-policy), which is incorporated by reference into these Website Terms of Use.</p>
+                <br>
+
+                <h3>Restrictions on use</h3>
+                <p><strong>Prohibited conduct</strong></p>
+                <p>Your use of this site is subject to the rules set out in Schedule 1 below.</p>
+                <p><strong>Violations of these Website Terms of Use</strong></p>
+                <p>Without limiting any other remedies available to the Company at law or in equity, the Company reserves the right to, without notice:</p>
+
+
+                <ul>
+                    <li>temporarily or indefinitely suspend, or terminate, your access to this site or refuse to provide services to you if:</li>
+                    <li>you breach any provision of these Website Terms of Use;</li>
+                    <li>the Company is unable to verify or authenticate any information that you provide to us; or</li>
+                    <li>the Company believes that your actions may cause damage and/or legal liability to the Company, any of its customers or suppliers or any other person; and</li>
+                    <li>remove or block access to any information and/or materials (in whole or in part) that the Company, at its sole and absolute discretion, regards in any way to be objectionable or in violation of any applicable law, any person’s intellectual
+                        property rights or these Website Terms of Use.</li>
+                </ul>
+                <p><strong>Indemnity</strong></p>
+
+
+                <p>You indemnify and hold harmless the Company and its officers, employees, agents, consultants, licensors, partners and affiliates from and against any losses, liabilities, costs, expenses or damages (including actual, special, indirect
+                    and consequential losses or damages of every kind and nature, including all legal fees on a solicitor-client basis) suffered or incurred by any of them due to, arising out of, or in any way related to (directly or indirectly):</p>
+                <ul>
+                    <li>any material or information that you submit, post, transmit or otherwise make available through this site;</li>
+                    <li>your use of, or connection to, this site; or</li>
+                    <li>your negligence or misconduct, breach of these Website Terms of Use or violation of any law or the rights of any person.</li>
+
+                </ul>
+                <br>
+                <h3>Registration and account security</h3>
+                <p><strong>Requirement for registration</strong></p>
+                <p>The Company reserves the right to make any parts of this site accessible only to users who have registered.</p>
+                <p><strong>Username and password</strong></p>
+                <p>Upon registration with this site, you will be issued with a username and password to access your account. You are responsible for maintaining the security of your password for this site. The Company will not be liable for any loss or damage
+                    arising from or in connection with your failure to comply with this security obligation. You agree that the Company will be entitled to assume that any person using this site with your username and password is you or your authorised
+                    representative.
+                </p>
+                <p>You must notify the Company immediately of any known or suspected unauthorised use of any password or any other breach of security.</p>
+                <p><strong>User information</strong></p>
+                <p>In order to register an account with this site, you must agree to these Website Terms of Use and provide the Company with:</p>
+                <ul>
+                    <li>a valid email address;</li>
+                    <li>accurate billing and contact information (including your street address and the name and telephone number of your authorised billing contact and administrator); and</li>
+                    <li>any other information that may be required by the Company during the registration process.</li>
+
+                </ul>
+
+                <p>You must promptly update this information to maintain its accuracy at all times.</p>
+                <p>You represent and warrant to the Company that all information provided to the Company by you, including the information provided by you through our account registration module or entered into your account profile, is true and not misleading
+                    and does not violate any applicable law or regulation or any person’s intellectual property or other rights.</p>
+                <p><strong>Multiple accounts and automated account opening</strong></p>
+                <p>One person may not maintain more than one account with this site. Accounts registered by “bots” or other automated methods are not permitted.</p>
+                <p><strong>Approval of registrations</strong></p>
+                <p>The Company reserves the right to accept or reject any application for registration of an account with this site at its discretion.</p>
+                <br>
+                <h3>Dealings with third parties</h3>
+                <p><strong>Content supplied by third parties</strong></p>
+                <p>This site includes an online portal that allows third parties to advertise goods and/or services and to upload information and other content directly to this site for our users to access. </p>
+                <p>We do not act as agent for any such third parties and we take no responsibility, and assume no liability, for:
+
+                </p>
+                <ul>
+                    <li>any such content that is, or may reasonably be considered to be, abusive, harassing, harmful, obscene, indecent, inflammatory, violent, profane, racially, ethnically or otherwise objectionable, libellous, defamatory, deceptive, pornographic,
+                        sexually explicit, unlawful or plagiarised;</li>
+                    <li>any of the information supplied by such third parties (including opinions, ideas, suggestions, comments, observations, text, photographs, videos, data, music, sounds, chat messages, files or any other material); and/or
+
+                    </li>
+                    <li>any loss or damage that results from any dealings that you may have with such third parties.</li>
+
+                </ul>
+                <p><strong>Third party goods/services and websites</strong></p>
+                <p>We do not recommend or endorse any third party goods or services that are listed, advertised or referred to in this site or the content of any third party websites. We are not responsible for the content of linked third party websites,
+                    websites framed within this site or third party advertisements and we do not make any representations, or provide any guarantees or warranties, regarding their content or accuracy. These links may unintentionally connect with websites
+                    containing information that some users may find inappropriate or offensive. Your use of any third party websites is at your own risk and subject to their respective terms and conditions of use.</p>
+                <p><strong>User acknowledgements</strong></p>
+                <p>
+                    You acknowledge that the Company does not:
+                </p>
+                <ul>
+                    <li>check the truth or currency of any of the material or information that third parties provide or make available through this site;</li>
+                    <li>control, endorse, approve or warrant to you the merchantability or fitness for any particular purpose of any of the goods or services of any third parties referred to in this site or whose identities become known to you through this
+                        site, including suppliers of content that is published or made available in or through this site;</li>
+                    <li>offer professional advice on the quality or suitability of any goods, services or information supplied by any such third parties; or</li>
+                    <lI>endorse or recommend any third party supplier or any third party goods or services, including where details of the relevant supplier are provided by the Company to you or otherwise become known to you through this site.</lI>
+
+                </ul>
+                <p><strong>Disputes between users and suppliers</strong></p>
+                <p>You are solely responsible for your interactions with suppliers listed on this site and the Company is not a party to any transactions between you and such suppliers. We reserve the right, but have no obligation, to monitor and take action
+                    regarding any disputes between users and suppliers.</p>
+                <p>If you believe that any supplier from which you have purchased any goods or services through this site has failed to provide those goods or services to you, or that those goods or services did not meet your expectations, please contact
+                    us to let us know so that we may take disciplinary action against that supplier if we consider it appropriate at our discretion to do so. The Company will not, however, act on your behalf, or on behalf of any supplier, in respect of
+                    any dispute between you and a supplier.
+
+                </p>
+                <br>
+                <h3>Intellectual property</h3>
+                <p><strong>Copyright</strong></p>
+                <p>In these Website Terms of Use, the term <strong>“Proprietary Content”</strong> means:</p>
+                <ul>
+                    <li>
+                        this site;
+                    </li>
+                    <li>all of its content (including all of the text, graphics, designs, software, data, sound and video files and other information contained in this site, and the selection and arrangement thereof); and</li>
+                    <li>
+                        all software, systems and other information owned or used by the Company in connection with this site (whether hosted on the same server as this site or otherwise).
+                    </li>
+
+                </ul>
+                <p>All Proprietary Content is the property of the Company or its licensors (as applicable) and is protected by Australian and international copyright laws. You must not reproduce, transmit, republish or prepare derivative works from any of
+                    the Proprietary Content, except as expressly authorised by these Website Terms of Use or with the prior written consent of the Company or other copyright owner (as applicable).</p>
+                <p>You may download and print out content from this site only for your own personal and non-commercial use and provided that you do not remove or modify any copyright, trademark or other proprietary notices.</p>
+                <p><strong>Trademarks</strong></p>
+                <p>The Company’s logo is a trademark of the Company. The look and feel of this site (including all button icons, scripts, custom graphics and headers) are the trademarks, service marks and/or trade dress of the Company. These trademarks,
+                    service marks and trade dress may not be used, copied or imitated, in whole or in part, without the prior written consent of the Company.
+
+                </p>
+                <p><strong>User Content</strong></p>
+                <p>In these Website Terms of Use, the term <strong>“User Content”</strong> means any and all content that is submitted, posted or otherwise added to this site by any user, such as comments, forum posts, chat room messages, reviews, ratings
+                    and feedback.</p>
+                <p>This site contains some features that enable you and other users to upload User Content. The Company reserves the right to display, refuse to display, remove and/or amend all or any part of any User Content at its absolute discretion.
+                    In respect of any User Content that you upload, you:</p>
+                <ul>
+                    <li>represent and warranty to the Company that your sharing of that User Content does not infringe any copyright or other legal right of any other person; and</li>
+                    <li>grant to the Company a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, sub-licensable and transferable license to use, reproduce, distribute, modify, adapt, prepare derivative works of, publicly display, publicly perform
+                        and otherwise exploit all or any part of that User Content in any way at the Company’s absolute discretion.
+
+                    </li>
+
+                </ul>
+                <p><strong>Copyright claims</strong></p>
+                <p>If you believe that our site contains any material that infringes upon any copyright that you hold or control, or that users are directed through a link on this site to a third party website that you believe is infringing upon any copyright
+                    that you hold or control, you may send a notification of such alleged infringement to us in writing. Such notification should identify the works that are allegedly being infringed upon and the allegedly infringing material and give
+                    particulars of the alleged infringement. In response to such a notification, we will give a written notice of a claim of copyright infringement to the provider of the allegedly infringing material. If the provider of that material
+                    does not respond to us in writing denying the alleged infringement within 14 days after receipt of that notice, we will remove or block the allegedly infringing material as soon as is reasonably practicable. If the provider of that
+                    material responds to us in writing denying the alleged infringement, we will, as soon as is reasonably practicable, send a copy of that response to the original notifying party. If the original notifying party does not, within a further
+                    14 days, file an action seeking a court order against the provider of the allegedly infringing material, we may restore any removed or blocked material at our discretion. If the original notifying party files such a legal action, we
+                    will remove or block the allegedly infringing material pending resolution of that legal action.</p>
+                <br>
+                <h3>
+                    Disclaimer of warranties
+                </h3>
+                <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY AND ITS OFFICERS, EMPLOYEES, AGENTS, CONSULTANTS, LICENSORS, PARTNERS AND AFFILIATES EXPRESSLY DISCLAIM ALL CONDITIONS, REPRESENTATIONS AND WARRANTIES (WHETHER EXPRESS OR IMPLIED, STATUTORY
+                    OR OTHERWISE) IN RELATION TO THIS SITE, INCLUDING ANY IMPLIED WARRANTY/GUARANTEE OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.</p>
+                <p>This site is provided strictly on an “as is” basis. To the maximum extent permitted by law, the Company and its officers, employees, agents, consultants, licensors, partners and affiliates make no representation, warranty or guarantee
+                    as to the reliability, timeliness, quality, suitability, truth, availability, accuracy or completeness of this site or any of its content, and in particular do not represent, warrant or guarantee that:</p>
+                <ul>
+                    <li>the use of this site will be secure, timely, uninterrupted or error-free or operate in combination with any other hardware, software, system or data;
+
+                    </li>
+                    <li>this site will meet your requirements or expectations;
+
+                    </li>
+                    <li>anything on this site, or on any third-party website referred or linked to in this site, is reliable, accurate, complete or up-to-date;</li>
+                    <li>the quality of any information or other material purchased or obtained through this site will meet any particular requirements or expectations;
+
+                    </li>
+                    <li>errors or defects will be corrected; or</li>
+                    <li>this site or the servers that make it available are free of viruses or other harmful components.</li>
+
+
+                </ul>
+
+                <br>
+                <h3>Limitation of liability</h3>
+                <p><strong>Exclusion of liability</strong></p>
+                <p>To the maximum extent permitted by law, the Company and its officers, employees, agents, consultants, licensors, partners and affiliates exclude all liability to you or any other person for any loss, cost, expense, claim or damage (whether
+                    arising in contract, negligence, tort, equity, statute or otherwise, and for any loss, whether it be consequential, indirect, incidental, special, punitive, exemplary or otherwise, including any loss of profits, loss or corruption
+                    of data or loss of goodwill) arising directly or indirectly out of, or in connection with, these Website Terms of Use or the use of this site by you or any other person.</p>
+                <p><strong>Remedies limited</strong></p>
+                <p>To the maximum extent permitted by law, the Company and its officers, employees, agents, consultants, licensors, partners and affiliates expressly limit their liability for breach of any non-excludable condition or warranty/guarantee implied
+                    by virtue of any legislation to the following remedies (the choice of which is to be at the Company’s sole discretion):</p>
+                <p>in the case of goods, to any of the following:
+
+                </p>
+                <ul>
+                    <li>the replacement of the goods or the supply of equivalent goods;</li>
+                    <li>the repair of the goods;</li>
+                    <li>the payment of the cost of replacing the goods or of acquiring equivalent goods; or
+
+                    </li>
+                    <li>the payment of the cost of having the goods repaired; and</li>
+
+                </ul>
+                <p>in the case of services:</p>
+                <ul>
+                    <li>the supply of the services again; or</li>
+                    <li>
+                        the payment of the cost of having the services supplied again.
+                    </li>
+                </ul>
+                <p><strong>Release</strong></p>
+                <p>You agree that your use of this site is at your own discretion and risk. You agree to release the Company and its officers, employees, agents, consultants, licensors, partners and affiliates from any claim, demand or cause of action that
+                    you may have against any of them arising from these Website Terms of Use or the use of this site by you or any other person. The Company may plead this release as a bar and complete defence to any claims or proceedings.</p>
+                <p><strong>Force majeure</strong></p>
+                <p>To the maximum extent permitted by law, and without limiting any other provision of these Website Terms of Use, the Company excludes liability for any delay in performing any of its obligations under these Website Terms of Use where such
+                    delay is caused by circumstances beyond the reasonable control of the Company, and the Company shall be entitled to a reasonable extension of time for the performance of such obligations.</p>
+                <br>
+                <h3>General</h3>
+                <p><strong>Interpretation</strong></p>
+                <p>In these Website Terms of Use, the following rules of interpretation apply:</p>
+                <ul>
+                    <li>headings are for reference purposes only and in no way define, limit or describe the scope or extent of any provision in these Website Terms of Use;</li>
+                    <li>these Website Terms of Use may not be construed adversely against the Company solely because the Company prepared them;</li>
+                    <li>the singular includes the plural and vice-versa;</li>
+                    <li>a reference to a “person” includes an individual, a firm, a corporation, a body corporate, a partnership, an unincorporated body, an association, a government body or any other entity; and</li>
+                    <li>the meaning of general words is not limited by specific examples introduced by “including”, “for example”, “in particular” or similar expressions.</li>
+
+                </ul>
+                <p><strong>Notifications</strong></p>
+                <p>The Company may provide any notification for the purposes of these Website Terms of Use by email and/or by adding the notification into your user control panel.</p>
+                <p><strong>Costs</strong></p>
+                <p>Except as specifically provided in these Website Terms of Use, each party must bear its own legal, accounting and other costs associated with these Website Terms of Use.</p>
+                <p><strong>Assignment</strong></p>
+                <p>You may not assign, transfer or sub-contract any of your rights or obligations under these Website Terms of Use without the Company’s prior written consent. Your registration with this site is personal to you and may not be sold or otherwise
+                    transferred to any other person.</p>
+                <p>The Company may assign, transfer or sub-contract any of its rights or obligations under these Website Terms of Use at any time without notice to you.</p>
+                <p><strong>No waiver</strong></p>
+                <p>Waiver of any power or right under these Website Terms of Use must be in writing signed by the party entitled to the benefit of that power or right and is effective only to the extent set out in that written waiver. Any failure by the
+                    Company to act with respect to a breach by you or others does not waive the Company’s right to act with respect to that breach or any subsequent or similar breaches.</p>
+
+                <p><strong>Severability</strong></p>
+                <p>The provisions of these Website Terms of Use are severable and, if any provision of these Website Terms of Use is held to be illegal, invalid or unenforceable under present or future law, such provision may be removed and the remaining
+                    provisions shall be enforced.
+
+                </p>
+                <p><strong>Variation</strong></p>
+                <p>The Company reserves the right to amend these Website Terms of Use and any other policy on this site at any time in its sole discretion and any such changes will, unless otherwise noted, be effective immediately. Your continued usage of
+                    this site will mean you accept those amendments. We reserve the right, without notice and at our sole discretion, to change, suspend, discontinue or impose limits on any aspect or content of this site.</p>
+                <p>You may only vary or amend these Website Terms of Use by written agreement with the Company.</p>
+                <p><strong>Governing law and jurisdiction</strong></p>
+                <p>These Website Terms of Use will be governed in all respects by the laws of Victoria. The parties irrevocably submit to the non-exclusive jurisdiction of the courts of Victoria and the courts of appeal from them.</p>
+                <p>– Prohibited conduct</p>
+                <p>YOU MUST NOT:</p>
+                <ul>
+                    <li>use any device, routine or software that interferes, or attempt to interfere, with the proper working of this site;</li>
+                    <li>engage in any action that requires, or may require, an unreasonable or excessively large load on our infrastructure;</li>
+                    <li>use this site to decipher passwords or security encryption codes, transmit any worms, viruses or Trojan horses, transfer or store illegal, threatening or obscene material or otherwise violate the security of any computer network;</li>
+                    <li>use this site to violate any applicable local, state, national or international law, to engage in any misleading or deceptive online marketing practices or for any fraudulent or malicious purposes;
+
+                    </li>
+                    <li>use any spider, robot or search/retrieval application or any screen scraping, data mining or similar data gathering device, process, program or means to access, retrieve or index any portion of this site;</li>
+                    <li>use this site by any automated means;</li>
+                    <li>use this site to transmit junk mail, spam or chain letters or pyramid schemes or engage in other flooding techniques or mass distribution of unsolicited email;</li>
+                    <li>access, retrieve or index any portion of this site for use in constructing or populating any database that is searchable online or for the purpose of soliciting or sharing reviews;</li>
+                    <li>interfere with the display of any advertisements appearing on or in connection with this site;</li>
+                    <li>reverse engineer, decompile, disassemble, adapt, modify, translate, frame or reformat any of the material contained on this site;</li>
+                    <li>reproduce, duplicate, copy or store any of the material appearing on this site other than for your own personal and non-commercial use;</li>
+                    <li>
+                        falsely imply that any other website is associated with this site;
+                    </li>
+                    <li>do anything that leads, or may lead, to a decrease in the value of the Company’s intellectual property rights in this site;
+
+                    </li>
+                    <li>
+                        use or exploit any of the material appearing on this site for, or in connection with, any business or enterprise (whether for profit or otherwise), including any business or enterprise that is in competition with this site;
+                    </li>
+                    <li>
+                        release to the public any news release, advertising material, promotional material or any other form of publicity or information relating to the Company without the Company’s prior written consent; or
+                    </li>
+                    <li>
+                        use this site to transmit any information or material that is, or may reasonably be considered to be:
+                    </li>
+                    <li>
+                        abusive, threatening, harassing, harmful, obscene, indecent, lewd, inflammatory, violent, vulgar, profane, racially, ethnically or otherwise objectionable or offensive in any way;
+                    </li>
+                    <li>
+                        libellous, defamatory, pornographic, sexually explicit, unlawful or plagiarised;
+                    </li>
+                    <li>
+                        infringing upon or violating any copyright, trademark, patent or other intellectual property or proprietary right;
+                    </li>
+                    <li>
+                        in breach of any duty of confidentiality by which you are bound, whether by way of a fiduciary or contractual relationship;
+                    </li>
+                    <li>
+                        in breach of any person’s privacy or publicity rights;
+                    </li>
+                    <li>
+                        a misrepresentation of facts, including the impersonation of any person or entity or a misrepresentation of an affiliation with any person or entity (including any sponsorship or endorsement);
+                    </li>
+                    <li>
+                        in violation of any applicable law, statute, ordinance or regulation, or encouraging of others to do so;
+                    </li>
+                    <li>
+                        containing any political campaigning material, advertisements or solicitations; or
+                    </li>
+                    <li>likely to bring the Company or any of its staff into disrepute.</li>
+
+                </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+
+
+    <!-- Footer #1 - Contact Us -->
+    <footer class="w3-row" id="contactus">
+        <div class="w3-half w3-light-grey w3-container" style="height:600px;">
+            <div class="w3-padding-32;" style="padding-left:20px">
+                <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;">
+                <h5>CALL US</h5>
+                <a href="tel: 1800 000 292">
+                    <h4 style="color:#5E3032;">1800 000 292</h4>
+                </a>
+                <br>
+                <h5>EMAIL</h5>
+                <a href="mailto: hello@cameronwellnesscentre.com.au">
+                    <h4 style="color:#5E3032">hello@cameronwellnesscentre.com.au</h4>
+                </a>
+                <br>
+                <img src="img/locationicon2.png" alt="location" style="max-width:30px; max-height: 30px;">
+                <h5>ADDRESS</h5>
+                <p>Suite 5a/170 Little Malop St, Geelong 3220, Victoria, Australia.</p>
+
+
+            </div>
+        </div>
+        <div class="w3-half w3-light-grey w3-container" style="height:600px">
+            <div class="w3-padding-16">
+                <h3 style="font-weight:bold; padding-left: 16px;">Get In Touch</h3>
+                <form class="w3-container w3-padding-80 " action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" style="width:100%;" required name="Name">
+                    </div>
+                    <div class="w3-section">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" style="width:100%;" required name="Email">
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <textarea id="message" name="message" style="height:100px; width: 100%;" required name="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer #2 -->
+    <footer class="w3-row" id="bot-footer">
+        <div class="w3-third w3-center w3-black w3-container" style="height:180px;">
+            <div class="w3-padding-64;" style="padding:20px">
+                <img src="img/ndis3.png" alt="NDIS Logo" style="max-width: 80px; max-height: 80px;">
+                <img src="img/Kinaway-Certified-Logo.png" alt="Kinaway" style="max-width:80px; max-height: 80px;">
+                <img src="img/aboriginalFlag.png" alt="Aboriginal Flag" style="max-width:80px; max-height:80px;">
+                <img src="img/torresstraitFlag.png" alt="Torres Strait Flag" style="max-width:80px; max-height: 80px;">
+
+            </div>
+        </div>
+        <div class="w3-third w3-center w3-black w3-container;" style="height:180px;">
+            <p>CONNECT WITH US</p>
+            <p>Keep up to date with what’s happening at the Cameron Wellness Centre.</p>
+            <span><a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px;"><i class="fa fa-linkedin"></i></a></span>
+
+        </div>
+        <div class="underhov w3-third w3-center w3-black w3-container;" style="height:180px; padding:57px;">
+            <a href="terms.html" class="w3-black" style="padding-right: 10px;">Terms of Use</a>
+            <a href="privacy.html" class="w3-black" style="padding-left: 10px;">Privacy Policy</a>
+
+        </div>
+    </footer>
+
+    <!-- Footer #3 -->
+    <footer class="w3-container w3-card w3-center w3-black w3-border-top">
+
+        <p class="w3-medium">Copyright <i class="fa fa-copyright "></i> 2023 Cameron Wellness Centre. All rights reserved.</a>
+        </p>
+    </footer>
+
+
+
+
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01 ").src = element.src;
+            document.getElementById("modal01 ").style.display = "block ";
+            var captionText = document.getElementById("caption ");
+            captionText.innerHTML = element.alt;
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myNavbar ");
+            if (x.className === "topnav2 ") {
+                x.className += " responsive ";
+            } else {
+                x.className = "topnav2 ";
+            }
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none ";
+        }
+
+        // Back to top button
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

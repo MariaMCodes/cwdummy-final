@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Privacy Policy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 Schools Template -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- external font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="w3-top">
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-small w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.google.com/maps/dir/-33.8460672,150.9883904/cameron+wellness+centre/@-35.9062919,143.2872305,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6ad415abe45d329b:0x8a4de8d4b5d30a08!2m2!1d144.3641724!2d-38.1497819" target="_blank"><i class="fa fa-map-marker" ></i>    GETTING TO THE CENTRE</a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i>    02 1234 5678</a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-medium w3-hide-large w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i></a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #2 stays at the top -->
+        <!-- CW Logo -->
+        <div class="w3-bar w3-white w3-card " id="myNavbar">
+            <div class="navbar-left">
+                <a href="index.html" class="w3-bar-item">
+                    <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Links on RHS -->
+            <div class="navbar-right w3-hide-small w3-hide-medium w3-right">
+                <a href="index.html" class="w3-bar-item w3-button ">Home</a>
+                <a href="services.html" class="w3-bar-item w3-button">Services</a>
+                <a href="story.html" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral.html" class="w3-bar-item w3-button">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item  w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+
+
+        </div>
+    </div>
+
+    <!-- Nav bar (sit on top) - ALTERNATE METHOD 
+       ******************************************************************************
+            CW Logo 
+        <div class="topnav2 w3-bar w3-white w3-card" id="myNavbar">
+            <div class="navbar-left2">
+                <a href="#home" class="w3-bar-item w3-button">
+                    <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Nav bar Right Links 
+            <div class="navbar-right2 w3-hide-small w3-hide-medium w3-right">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#services" class="w3-bar-item w3-button">Services</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#contact" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral" class="w3-bar-item w3-button" target="_blank">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon 
+            <a href="javascript:void(0)" class="navbar-right2 w3-bar-item w3-button w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+            </div>
+        ******************************************************************************
+        -->
+
+
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <!-- display:none means side bar is hidden by default -->
+    <nav id="mySidebar" class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-large" style="display:none">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 fa fa-remove w3-right">   Close <!--&times;--></a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+        <a href="story.html" onclick="w3_close()" class="w3-bar-item w3-button">Our Story</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+        <a href="referral.html" onclick="w3_close()" class="w3-bar-item w3-button">Make a Referral</a>
+    </nav>
+
+
+
+
+    <!-- Header with full-height image 
+    <header class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px;  margin: 100px;">
+            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+
+            <div class="img-text">
+                <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+                <span class="w3-large ">Learn more and start today.
+                <a href="#referral" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off ">Make a Referral</a>
+            </span>
+                <span class="w3-large "><p>Cameron Wellness Centre is a unique and progressive NDIS Registered & Kinaway-certified provider focused on providing comprehensive therapeutic supports to all people throughout Victoria.</p></span>
+            </div>
+
+        </div>
+
+    </header>-->
+
+    <!-- CW Logo Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+        <img class="w3-image" src="img/bannerbg2.png" alt="CW Logo" width="1500px" height="800px">
+        <div class="w3-display-left w3-margin-top w3-center">
+            <span class="w3-jumbo w3-hide-small w3-hide-medium" style="color:#5E3032; padding:48px"><strong>Website Privacy Policy</strong></span>
+        </div>
+        <div class="w3-display-bottomleft w3-margin-top w3-center">
+            <span class="w3-xxlarge w3-hide-large" style="color:#5E3032; padding:20px;"><strong>Privacy Policy</strong></span>
+
+        </div>
+    </header>
+
+    <!-- Container (Privacy Policy Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+
+        <p>This Privacy Policy is in accordance with the Australian Privacy Principles (“APPs”) and it governs the way your personal information is handled after that information is collected through the website.</p>
+        <p>Cameron Wellness Centre Pty Ltd (ACN 650 769 734) (“we”, “us” or the “Company”) is committed to privacy protection.</p>
+        <p>Any reference to “you’ or “your” means a reference to the user of the Website and/or a person whose personal information is collected through the Website. This privacy policy is published on the Website and as a condition of your use of our Website
+            you agree to this Privacy Policy.</p>
+        <p>At
+            <a href="https://cameronwellnesscentre.com.au">www.cameronwellnesscentre.com.au</a> (“this site” or the “Website”), we understand the importance of keeping personal information private and secure. This privacy policy (“Privacy Policy”) describes
+            generally how we manage personal information and safeguard privacy.</p>
+        <p>If you would like more information, please don’t hesitate to contact us.</p>
+        <p>This Privacy Policy forms part of, and is subject to the provisions of, our Website Terms of Use. We are bound by the Privacy Act 1988 and Australian Privacy Principles as well as other applicable laws protecting privacy, including State and Territory
+            health information legislation.</p>
+        <br>
+        <h3>The Australian Privacy Principles</h3>
+        <p>We will treat all personal information in accordance with any and all obligations that are binding upon us under the Privacy Act 1988 (Cth) (“Privacy Act”). The Privacy Act lays down 13 key principles in relation to the collection and treatment
+            of personal information, which are called the “Australian Privacy Principles”.</p>
+        <p>We care about your privacy:</p>
+        <ul>
+            <li>We will never rent, trade or sell your email address to anyone.</li>
+            <li>We will never publicly display your email address or other personal details that identify you.</li>
+        </ul>
+        <p>By providing personal information to us, you consent to our collection, use and disclosure of that personal information on the terms of this Privacy Policy and any other contractual or other arrangements that apply between us (if any).</p>
+        <br>
+        <h3>What is “personal information”?</h3>
+        <p>Personal information held by the Company may include your:</p>
+        <ul>
+            <li>name and date of birth;</li>
+            <li>residential and business postal addresses, telephone/mobile/fax numbers and email addresses;</li>
+            <li>bank account and/or credit card details for agreed billing purposes;</li>
+            <li>your computer and connection information; and</li>
+            <li>any information that you otherwise share with us.</li>
+        </ul>
+        <br>
+        <h3>How we may collect your personal information</h3>
+        <p>At this site, we only collect personal information that is necessary for us to conduct our business as Cameron Wellness Centre as a Kinaway certified Indigenous business and a NDIS provider specialising in capacity building therapeutic supports
+            and assistance for all Australians with a focus on First Nations participants.</p>
+        <p>The types of personal information Cameron Wellness Centre collects, and purposes of collecting that information, include:</p>
+        <p><strong>Providing services to clients</strong></p>
+        <p>Cameron Wellness Centre collects our clients, and, if required, their family members’ names, addresses and other contact details, date of birth, other information about our clients’ needs and circumstances (such as living or financial circumstances),
+            records of communication and as otherwise required in order to provide our services and communicate with our clients.</p>
+        <p>Subject to Cameron Wellness Centre obtaining the relevant individual’s consent, this information may include health information about the individual including correspondence with the client’s health and other service providers and other sensitive
+            information.
+        </p>
+        <p>The following responsible persons may, depending on the circumstances of a client, be treated as being able to act on a client’s behalf for the purposes of this privacy policy and the collection, use and disclosure of personal information: a guardian,
+            parent, carer or other person responsible for the care of the client; someone with a general Power of Attorney or a Power of Attorney which includes health-related power; a person recognised under a law as responsible for any aspect of the
+            care or welfare of the client which is relevant to something Cameron Wellness Centre does or intends to do; and a person nominated in writing by the client while the client is capable of giving consent.</p>
+        <p><strong>Distributing publications</strong></p>
+        <p>Cameron Wellness Centre collects and stores personal information on our publication or direct marketing list (which may include name, address, email address, and mobile phone number) in order to distribute newsletters and other communications
+            in print and electronic form from time to time.</p>
+        <p>We will only use sensitive information (such as health information) for direct marketing purposes with express prior consent (as the case may be). You may opt-out of receiving direct marketing by contacting us (contact details below), or opting
+            out by the mechanism provided.</p>
+        <p><strong>Conducting events</strong></p>
+        <p>we collect contact details, donation history and other personal information, including photographs and videos, about clients and their family members, donors and other supporters who wish to join or participate in our events and programes we conduct.
+            This information is used to administer these events and to promote and seek support for such events and for the activities of Cameron Wellness Centre. With the consent of the relevant person, this information may include health or other sensitive
+            information.
+        </p>
+        <p><strong>Assisting with your queries</strong></p>
+        <p>you may choose to provide us with your name or other contact details when you contact us so that we can respond to your requests for our newsletter or for other information about Cameron Wellness Centre’s services or operations.</p>
+        <p><strong>Conducting our general business activities </strong></p>
+        <p>we collect personal information about individuals for our general business operations. From time to time, we may collect, use and disclose personal information for quality assurance, risk management, billing and administrative purposes.</p>
+        <p><strong>Website use</strong></p>
+        <p>Cameron Wellness Centre collects aggregate, anonymous data that our websites use to analyse trends, administer the websites, diagnose problems on sites’ servers, track user’s movement, gather broad demographic information for aggregate use and
+            to help improve the quality of the web pages. Such data may include your domain name or your IP address. None of this information can reasonably be used to identify you.</p>
+        <br>
+        <h3>Information that you provide to us</h3>
+        <p>We may collect personal information that you provide to us about yourself when you:</p>
+        <ul>
+            <li>use this site, including (without limitation) when you:</li>
+            <li>purchase any services through this site (if any);</li>
+            <li>add reviews, forum or chat room messages or comments in any elements of this site that permit user-generated content;</li>
+            <li>egister for access to premium content or request certain premium features; or</li>
+            <li>complete an online contact form to contact us or any third party supplier;</li>
+            <li>provide information to us by telephone or through marketing or competition application forms; or</li>
+            <li>send us an email or other communication.</li>
+
+        </ul>
+        <br>
+        <h3>IP addresses</h3>
+        <p>This site may also collect Internet Protocol (IP) addresses. IP addresses are assigned to computers on the internet to uniquely identify them within the global network. The Company collects and manages IP addresses as part of the service of providing
+            internet session management and for security purposes. The Company may also collect and use web log, computer and connection information for security purposes and to help prevent and detect any misuse of, or fraudulent activities involving,
+            this site.</p>
+        <br>
+        <h3>Cookies</h3>
+        <p>This site uses “cookies” to help personalise your online experience. A cookie is a text file or a packet of information that is placed on your hard disk by a web page server to identify and interact more effectively with your computer. There are
+            two types of cookies that may be used at this site: a persistent cookie and a session cookie. A persistent cookie is entered by your web browser into the “Cookies” folder on your computer and remains in that folder after you close your browser,
+            and may be used by your browser on subsequent visits to this site.</p>
+        <p>A session cookie is held temporarily in your computer’s memory and disappears after you close your browser or shut down your computer. Cookies cannot be used to run programs. Cookies are uniquely assigned to you, and can only be read by a web
+            server in the domain that issued the cookie to you. In some cases, cookies may collect and store personal information about you. The Company extends the same privacy protection to your personal information, whether gathered via cookies or
+            from other sources.</p>
+        <p>You can configure your internet browser to accept all cookies, reject all cookies or notify you when a cookie is sent. Please refer to your internet browser’s instructions to learn more about these functions. Most web browsers automatically accept
+            cookies, but you can usually modify your browser settings to decline cookies if you prefer. If you choose to decline cookies, you may not be able to fully experience the interactive features of this site.</p>
+        <br>
+        <h3>Why we use cookies</h3>
+        <p>This site uses cookies in order to:</p>
+        <uL>
+            <li>remember your preferences for using this site;</li>
+            <li>facilitate e-commerce transactions, to ensure that your order is remembered between pages during the checkout process (if any);</li>
+            <li>show relevant notifications to you (eg, notifications that are relevant only to users who have, or have not, subscribed to newsletters or email or other subscription services); and</li>
+            <li>remember details of data that you choose to submit to us (eg, through online contact forms or by way of comments, forum posts, chat room messages, reviews, ratings, etc).</li>
+        </uL>
+        <p>Many of these cookies are removed or cleared when you log out but some may remain so that your preferences are remembered for future sessions.</p>
+        <br>
+        <h3>Third party cookies</h3>
+        <p>In some cases, third parties may place cookies through this site. For example:</p>
+        <ul>
+            <lI>Google Analytics, one of the most widespread and trusted website analytics solutions, may use cookies de-identified data about how long users spend on this site and the pages that they visit;</lI>
+            <li>Google AdSense, one of the most widespread and trusted website advertising solutions, may use cookies to serve more relevant advertisements across the web and limit the number of times that a particular advertisement is shown to you; and</li>
+            <li>third party social media applications (eg, Facebook, Twitter, LinkedIn, Pinterest, YouTube, Instagram, etc) may use cookies in order to facilitate various social media buttons and/or plugins in this site.</li>
+        </ul>
+        <p>We may use cookies, Google Analytics or other technology to track visits to our website to monitor its effectiveness, maintain our server and improve our services. Types of data collected include:</p>
+        <ul>
+            <li>Server address;</li>
+            <li>Top level domain name (for example .com, .gov, .au, etc.);</li>
+            <lI>The date and time of the visit to the site;</lI>
+            <li>The pages accessed and documents downloaded;</li>
+            <li>The previous site visited;</li>
+            <li>If the individual has visited our site before; and</li>
+            <li>the type of browser used.</li>
+        </ul>
+        <p>These statistics will not identify you as an individual.</p>
+        <br>
+        <h3>How we may use your personal information</h3>
+        <p>Your personal information may be used in order to:</p>
+        <ul>
+            <li>verify your identity;</li>
+            <li>assist you to place orders through this site;</li>
+            <li>process any purchases of services that you may make through this site, including charging, billing and collecting debts;</li>
+            <li>respond to any queries or feedback that you may have;</li>
+            <li>conduct appropriate checks for credit-worthiness and for fraud;</li>
+            <li>prevent and detect any misuse of, or fraudulent activities involving, this site;</li>
+            <li>conduct research and development in respect of our products and/or services;</li>
+            <li>gain an understanding of your information and communication needs or obtain your feedback or views about our products and/or services in order for us to improve them; and/or</li>
+            <li>maintain and develop our business systems and infrastructure, including testing and upgrading of these systems,</li>
+            <li>and for any other purpose reasonably considered necessary or desirable by the Company in relation to the operation of our business.</li>
+        </ul>
+        <p>From time to time we may email our customers with news, information and offers relating to our own products/services or those of selected partners. Your personal information may also be collected so that the Company can promote and market products
+            and services to you.</p>
+        <p>This is to keep you informed of products, services, and special offers we believe you will find valuable and may continue after you cease acquiring products and services from us.</p>
+        <p>If you would prefer not to receive promotional or other material from us, please let us know and we will respect your request. You can unsubscribe from such communications at any time if you choose.</p>
+        <br>
+        <h3>Controlling Personal Information</h3>
+        <p>At all times you can remember to have a choice about choosing not to provide your personal information to us.</p>
+        <p>We agree to give you access to your personal information we hold (except in limited circumstances recognised by law) upon your written request, if you would like to make any such request please Contact Us via the Website and/or via the contact
+            details set out in this document.</p>
+        <p>Please contact us if you need to correct your personal information and you may also be able to correct your personal information through the website.</p>
+        <p>If you would like to restrict the collection of your personal information please contact us so as to make this request. You may or may not choose to provide reasons for any such request.</p>
+        <p>If you subscribe or otherwise have been added to a marketing or email list database, you may unsubscribe by means we make available or otherwise you can contact us to do so via the details set out in this document.</p>
+        <p>Your personal information is not likely to be given or disclosed to anybody that is outside of Australia, unless otherwise informed in writing. You can contact us if you have any queries about such disclosure.</p>
+        <br>
+        <h3>When we may disclose your personal information</h3>
+        <p>In order to deliver the services you require or for the purposes set out above, the Company may disclose your personal information to organisations outside the Company.</p>
+        <p>Your personal information may be disclosed to these organisations only in relation to this site, and the Company takes reasonable steps to ensure that these organisations are bound by confidentiality and privacy obligations in relation to the
+            protection of your personal information.</p>
+        <p>These organisations may carry out or provide:</p>
+        <ul>
+            <li>customer enquiries;</li>
+            <li>mailing systems;</li>
+            <li>billing and debt-recovery functions;</li>
+            <li>information technology services;</li>
+            <li>marketing, telemarketing and sales services;</li>
+            <li>market research;</li>
+            <li>health related organisations and departments; and</li>
+            <li>website usage analysis.</li>
+
+        </ul>
+        <p>In addition, we may disclose your personal information to:</p>
+        <ul>
+            <li>your authorised representatives or legal advisers (when requested by you to do so);</li>
+            <li>credit-reporting and fraud-checking agencies;</li>
+            <li>credit providers (for credit-related purposes such as creditworthiness, credit rating, credit provision and financing);</li>
+            <li>our professional advisers, including our accountants, auditors and lawyers;</li>
+            <li>government and regulatory authorities and other organisations, as required or authorised by law;</li>
+            <li>organisations who manage our business strategies, including those involved in a transfer/sale of all or part of our assets or business (including accounts and trade receivables) and those involved in managing our business risk and funding
+                functions; and</li>
+            <li>the police or other appropriate persons where your communication suggests possible illegal activity or harm to others.</li>
+
+        </ul>
+        <br>
+        <h3>Contact Us</h3>
+        <p>Contact us in respect of this Privacy Policy or about any questions you might have about your personal information and us or our use of it. Our contact details are as follows:</p>
+        <br>
+        <p>Address: Unit 6, 8 Bealiba Road</p>
+        <p>CAULFIELD SOUTH VIC 3162</p>
+        <br>
+        <p>Postal Address: Unit 6, 8 Bealiba Road</p>
+        <p>CAULFIELD SOUTH VIC 3162</p>
+        <br>
+        <p>Website:
+            <a href="https://cameronwellnesscentre.com.au" target="_blank">www.cameronwellnesscentre.com.au</a>
+        </p>
+        <br>
+        <p>Telephone: 1800 000 292</p>
+        <br>
+        <p>Email: hello@cameronwellnesscentre.com.au</p>
+        <br>
+        <p>You may contact us if you would like to access the personal information we hold about you or if you would like any of that information corrected from time to time. </p>
+        <br>
+        <h3>Access to your personal information</h3>
+        <p>In most cases, you may have access to personal information that we hold about you. We will handle requests for access to your personal information in accordance with the Australian Privacy Principles.</p>
+        <p>All requests for access to your personal information must be directed to the Privacy Officer by email using the email address provided above or by writing to us at our postal address.</p>
+        <p>We will deal with all requests for access to personal information as quickly as possible. Requests for a large amount of information, or information that is not currently in use, may require further time before a response can be given. We may
+            charge you a fee if permitted for access if a cost is incurred by us in order to retrieve your information, but in no case will we charge you a fee for your application for access.</p>
+        <p>In some cases, we may refuse to give you access to personal information that we hold about you. This may include circumstances where giving you access would:</p>
+        <uL>
+            <li>be unlawful (eg, where a record that contains personal information about you is subject to a claim for legal professional privilege by one of our contractual counterparties);</li>
+            <li>have an unreasonable impact on another person’s privacy; or</li>
+            <li>prejudice an investigation of unlawful activity.</li>
+        </uL>
+        <p>We may also refuse access where the personal information relates to existing or anticipated legal proceedings, and the information would not be accessible by the process of discovery in those proceedings.</p>
+        <p>If we refuse to give you access, we will provide you with reasons for our refusal.</p>
+        <br>
+        <h3>Correcting your personal information</h3>
+        <p>We will amend any personal information about you that is held by us and that is inaccurate, incomplete or out of date if you request us to do so.</p>
+        <p>If we disagree with your view about the accuracy, completeness or currency of a record of your personal information that is held by us, and you ask us to associate with that record a statement that you have a contrary view, we will take reasonable
+            steps to do so.</p>
+        <br>
+        <h3>Storage and security of your personal information</h3>
+        <p>We are committed to maintaining the confidentiality of the information that you provide us and we will take all reasonable precautions to protect your personal information from unauthorised use or alteration.</p>
+        <p>In our business, personal information may be stored both electronically (on our computer systems and with our website hosting provider) and in hard-copy form. Firewalls, anti-virus software and email filters, as well as passwords, protect all
+            of our electronic information. Likewise, we take all reasonable measures to ensure the security of hard-copy information.</p>
+        <p>We regard the security of your personal information as a priority and implement a number of physical and electronic measures to protect it.</p>
+        <p>Cameron Wellness Centre will ensure that:</p>
+        <ul>
+            <li>Personal information is protected from misuse, loss, unauthorised access, modification or inappropriate disclosure;</li>
+            <li>Personal information is stored in a manner that reasonably protects it from misuse and loss and from unauthorised access, modification or disclosure;</li>
+            <li>Electronic data is kept within secure network storage and ensure that staff may only access that data which is necessary to perform their role.</li>
+        </ul>
+        <p>When the personal information is no longer needed for the purpose for which it was obtained; Cameron Wellness Centre will take reasonable steps to destroy or permanently de-identify that information.</p>
+        <p>We remind you, however, that the Internet is not a secure environment and, although all care is taken, we cannot guarantee the security of information you provide to us via electronic means.</p>
+        <br>
+        <h3>Third party websites</h3>
+        <p>You may click-through to third party websites from this site, in which case we recommend that you refer to the privacy statement of the websites you visit.</p>
+        <p>This Privacy Policy applies to this site only and the Company assumes no responsibility for the content of any third party websites.</p>
+        <br>
+        <h3>Re-marketing</h3>
+        <p>We may use the Google AdWords and/or Facebook re-marketing services to advertise on third party websites to previous visitors to this site based upon their activity on this site. This allows us to tailor our marketing to better suit your needs
+            and to only display advertisements that are relevant to you.</p>
+        <p>Such advertising may be displayed on a Google search results page or a website in the Google Display Network or inside Facebook. Google and Facebook may use cookies and/or pixel tags to achieve this. Any data so collected by Google and/or Facebook
+            will be used in accordance with their own respective privacy policies. None of your personal Google and/or Facebook information is reported to us.</p>
+        <br>
+        <h3>Changes to this Privacy Policy</h3>
+        <p>From time to time, it may be necessary for us to revise this Privacy Policy. Any changes will be in accordance with any applicable requirements under the Privacy Act and the Australian Privacy Principles. We may notify you about changes to this
+            Privacy Policy by posting an updated version on this site.</p>
+        <p>This is our current Privacy Policy. We may at any time vary this Privacy Policy by publishing an updated version on our website. You accept that by using the Website or continuing to use our services, provided you with sufficient notice of the
+            variation.
+        </p>
+        <br>
+        <h3>Further information</h3>
+        <p>More information about privacy law and privacy principles is available from the Privacy Commissioner. The Privacy Commissioner may be contacted at <a href="https://www.oaic.gov.au" target="_blank">www.oaic.gov.au</a> (email: enquiries@oaic.gov.au)
+            (Australia).
+        </p>
+        <br>
+        <p>Last update of this policy: 9 September 2021.</p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+
+
+    <!-- Footer #1 - Contact Us -->
+    <footer class="w3-row" id="contactus">
+        <div class="w3-half w3-light-grey w3-container" style="height:600px;">
+            <div class="w3-padding-32;" style="padding-left:20px">
+                <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;">
+                <h5>CALL US</h5>
+                <a href="tel: 1800 000 292">
+                    <h4 style="color:#5E3032;">1800 000 292</h4>
+                </a>
+                <br>
+                <h5>EMAIL</h5>
+                <a href="mailto: hello@cameronwellnesscentre.com.au">
+                    <h4 style="color:#5E3032">hello@cameronwellnesscentre.com.au</h4>
+                </a>
+                <br>
+                <img src="img/locationicon2.png" alt="location" style="max-width:30px; max-height: 30px;">
+                <h5>ADDRESS</h5>
+                <p>Suite 5a/170 Little Malop St, Geelong 3220, Victoria, Australia.</p>
+
+
+            </div>
+        </div>
+        <div class="w3-half w3-light-grey w3-container" style="height:600px">
+            <div class="w3-padding-16">
+                <h3 style="font-weight:bold; padding-left: 16px;">Get In Touch</h3>
+                <form class="w3-container w3-padding-80 " action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" style="width:100%;" required name="Name">
+                    </div>
+                    <div class="w3-section">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" style="width:100%;" required name="Email">
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <textarea id="message" name="message" style="height:100px; width: 100%;" required name="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer #2 -->
+    <footer class="w3-row" id="bot-footer">
+        <div class="w3-third w3-center w3-black w3-container" style="height:180px;">
+            <div class="w3-padding-64;" style="padding:20px">
+                <img src="img/ndis3.png" alt="NDIS Logo" style="max-width: 80px; max-height: 80px;">
+                <img src="img/Kinaway-Certified-Logo.png" alt="Kinaway" style="max-width:80px; max-height: 80px;">
+                <img src="img/aboriginalFlag.png" alt="Aboriginal Flag" style="max-width:80px; max-height:80px;">
+                <img src="img/torresstraitFlag.png" alt="Torres Strait Flag" style="max-width:80px; max-height: 80px;">
+
+            </div>
+        </div>
+        <div class="w3-third w3-center w3-black w3-container;" style="height:180px;">
+            <p>CONNECT WITH US</p>
+            <p>Keep up to date with what’s happening at the Cameron Wellness Centre.</p>
+            <span><a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px;"><i class="fa fa-linkedin"></i></a></span>
+
+        </div>
+        <div class="underhov w3-third w3-center w3-black w3-container;" style="height:180px; padding:57px;">
+            <a href="terms.html" class="w3-black" style="padding-right: 10px;">Terms of Use</a>
+            <a href="privacy.html" class="w3-black" style="padding-left: 10px;">Privacy Policy</a>
+
+        </div>
+    </footer>
+
+    <!-- Footer #3 -->
+    <footer class="w3-container w3-card w3-center w3-black w3-border-top">
+
+        <p class="w3-medium">Copyright <i class="fa fa-copyright "></i> 2023 Cameron Wellness Centre. All rights reserved.</a>
+        </p>
+    </footer>
+
+
+
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01 ").src = element.src;
+            document.getElementById("modal01 ").style.display = "block ";
+            var captionText = document.getElementById("caption ");
+            captionText.innerHTML = element.alt;
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myNavbar ");
+            if (x.className === "topnav2 ") {
+                x.className += " responsive ";
+            } else {
+                x.className = "topnav2 ";
+            }
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none ";
+        }
+
+        // Back to top button
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

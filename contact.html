@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- W3 Schools Template -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <!-- external font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="w3-top">
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-small w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.google.com/maps/dir/-33.8460672,150.9883904/cameron+wellness+centre/@-35.9062919,143.2872305,6z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x6ad415abe45d329b:0x8a4de8d4b5d30a08!2m2!1d144.3641724!2d-38.1497819" target="_blank"><i class="fa fa-map-marker" ></i>    GETTING TO THE CENTRE</a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i>    02 1234 5678</a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #1 stays at the top -->
+        <div class="topnav w3-hide-medium w3-hide-large w3-bar;">
+            <a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="tel: (02) 1234 5678"><i class="fa fa-phone-square"></i></a>
+            <a href="referral.html" class="en-button">Enquire Now</a>
+        </div>
+        <!-- Nav bar #2 stays at the top -->
+        <!-- CW Logo -->
+        <div class="w3-bar w3-white w3-card " id="myNavbar">
+            <div class="navbar-left">
+                <a href="index.html" class="w3-bar-item">
+                    <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Links on RHS -->
+            <div class="navbar-right w3-hide-small w3-hide-medium w3-right">
+                <a href="index.html" class="w3-bar-item w3-button ">Home</a>
+                <a href="services.html" class="w3-bar-item w3-button">Services</a>
+                <a href="story.html" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="contact.html" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral.html" class="w3-bar-item w3-button">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+            <a href="javascript:void(0)" class="w3-bar-item  w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+
+
+        </div>
+    </div>
+
+    <!-- Nav bar (sit on top) - ALTERNATE METHOD 
+       ******************************************************************************
+            CW Logo 
+        <div class="topnav2 w3-bar w3-white w3-card" id="myNavbar">
+            <div class="navbar-left2">
+                <a href="#home" class="w3-bar-item w3-button">
+                    <img id="logo" src="img/logo.png" alt="img" style="max-width: 260px; max-height: 300px;"></img>
+                </a>
+            </div>
+            <!-- Nav bar Right Links 
+            <div class="navbar-right2 w3-hide-small w3-hide-medium w3-right">
+                <a href="#home" class="w3-bar-item w3-button">Home</a>
+                <a href="#services" class="w3-bar-item w3-button">Services</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#story" class="w3-bar-item w3-button"></i>Our Story</a>
+                <a href="#contact" class="w3-bar-item w3-button"></i>Contact Us</a>
+                <a href="referral" class="w3-bar-item w3-button" target="_blank">Make a Referral</a>
+            </div>
+
+
+            <!-- Hide right-floated links on small screens and replace them with a menu icon 
+            <a href="javascript:void(0)" class="navbar-right2 w3-bar-item w3-button w3-right w3-hide-large " onclick="w3_open()">
+                <i class="fa fa-bars" style="font-size: 20px; padding-top: 45px;"> Menu</i>
+            </a>
+            </div>
+        ******************************************************************************
+        -->
+
+
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <!-- display:none means side bar is hidden by default -->
+    <nav id="mySidebar" class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-hide-large" style="display:none">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16 fa fa-remove w3-right">   Close <!--&times;--></a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+        <a href="story.html" onclick="w3_close()" class="w3-bar-item w3-button">Our Story</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact Us</a>
+        <a href="referral.html" onclick="w3_close()" class="w3-bar-item w3-button">Make a Referral</a>
+    </nav>
+
+
+
+
+    <!-- Header with full-height image 
+    <header class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px;  margin: 100px;">
+            <span class="w3-jumbo w3-hide-small">Start something that matters</span><br>
+
+            <div class="img-text">
+                <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+                <span class="w3-large ">Learn more and start today.
+                <a href="#referral" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off ">Make a Referral</a>
+            </span>
+                <span class="w3-large "><p>Cameron Wellness Centre is a unique and progressive NDIS Registered & Kinaway-certified provider focused on providing comprehensive therapeutic supports to all people throughout Victoria.</p></span>
+            </div>
+
+        </div>
+
+    </header>-->
+
+    <!-- CW Logo Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+        <img class="w3-image" src="img/bannerbg2.png" alt="CW Logo" width="1500px" height="800px">
+        <div class="w3-display-left w3-margin-top w3-center">
+            <span class="w3-jumbo w3-hide-small " style="color:#5E3032; padding:48px"><strong>Get In Touch</strong></span>
+        </div>
+        <div class="w3-display-bottomleft w3-margin-top w3-center">
+            <span class="w3-xxlarge w3-hide-medium w3-hide-large" style="color:#5E3032; padding:20px;"><strong>Get In Touch</strong></span>
+
+        </div>
+    </header>
+
+    <!-- Container (Drop us a line) -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3>Drop us a line</h3>
+    </div>
+    <div class="w3-content w3-row">
+
+        <div class="w3-third w3-left w3-white" style="padding-left: 16px;">
+            <p style="color:#983222"><strong>Phone:</strong></p>
+            <a href="tel: 1800 000 292">
+                <p>1800 000 292</p>
+            </a>
+        </div>
+        <div class="w3-third w3-left" style="padding-left: 16px;">
+            <p style="color:#983222"><strong>Address:</strong></p>
+            <p class="w3-opacity">Geelong Clinic:</p>
+            <p>Suite 5A, 170 Little Malop St</p>
+            <p>Geelong VIC 3220</p>
+        </div>
+        <div class="w3-third w3-left" style="padding-left: 16px;">
+            <a href="mailto: hello@cameronwellnesscentre.com.au">
+                <p style="color:#983222"><strong>Email:</strong></p>
+
+                <p>hello@cameronwellnesscentre.com.au</p>
+            </a>
+        </div>
+
+
+    </div>
+
+
+    <!-- Put the contact us in a row with three columns instead 
+    <div class="w3-content w3-container w3-left-align w3-padding-64" id="about">
+        <h3>Drop us a line</h3>
+        <br>
+        <p style="color:#983222"><strong>Phone:</strong></p>
+        <p>1800 000 292</p>
+        <br>
+        <p style="color:#983222"><strong>Address:</strong></p>
+        <p class="w3-opacity">Geelong Clinic:</p>
+        <p>Suite 5A, 170 Little Malop St</p>
+        <p>Geelong VIC 3220</p>
+        <br>
+        <p style="color:#983222"><strong>Email:</strong></p>
+        <p>hello@cameronwellnesscentre.com.au</p>
+        <br>
+        -->
+
+    <div class="w3-content w3-container w3-padding-24">
+        <p><strong>Send us a message:</strong></p>
+
+        <!-- Send a message form -->
+        <form class=" w3-container " style="padding: 8px 32px 32px 32px" action="/action_page.php" target="_blank" id="grey-container">
+            <div class="w3-section">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" style="width:100%;" required name="Name">
+            </div>
+            <div class="w3-section">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" style="width:100%;" required name="Email">
+            </div>
+            <div class="w3-section">
+                <label>Message</label>
+                <textarea id="message" name="message" style="height:100px; width: 100%;" required name="Message"></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Container (Feedback/Complaint section) -->
+    <!-- Accordion form -->
+    <div class="w3-content w3-container w3-left-align w3-padding-32" id="about">
+
+        <button class="accordion">Feedback or Make a Complaint</button>
+        <form class="panel " action="/action_page.php" method="get">
+            <p style="color:#983222"><strong><i>* denotes mandatory fields</i></strong></p>
+            <div class="w3-row w3-padding-16">
+                <div class="w3-half">
+                    <label for="fname">First Name*</label>
+                    <input type="text" id="fname" name="firstname" required name="First name">
+                </div>
+                <div class="w3-half">
+                    <label for="lname">Last Name*</label>
+                    <input type="text" id="lname" name="lastname" required name="Last name">
+                </div>
+            </div>
+            <div class="w3-row w3-padding-16">
+
+                <label for="phone">Phone Number (numbers only)*</label>
+                <input type="tel" id="phone" name="phone" required name="Phone number">
+            </div>
+            <div class="w3-row w3-padding-16">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required name="Email">
+            </div>
+            <div class="w3-row w3-padding-16">
+                <div class="w3-third">
+                    <label for="suburb">Suburb</label>
+                    <input type="text" id="suburb" name="Suburb">
+                </div>
+                <div class="w3-third">
+                    <label for="state">State</label>
+                    <select id="state" name="state">
+                        <option value="select">Please Select</option>
+                        <option value="nsw">New South Wales</option>
+                        <option value="qld">Queensland</option>
+                        <option value="sa">South Australia</option>
+                        <option value="tas">Tasmania</option>
+                        <option value="vic">Victoria</option>
+                        <option value="wa">Western Australia</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="w3-row w3-padding-16">
+                <label for="cw-clinician">Cameron Wellness Centre clinician name (if known)</label>
+                <input type="text" id="cw-clinician" name="cw-clinician">
+            </div>
+
+
+
+
+
+            <div class="w3-row w3-padding-16">
+                <label for="comment">Provide details of your feedback or complaint*
+                </label>
+                <textarea id="comment" name="comment" style="height:200px; width: 100%;"></textarea>
+            </div>
+
+
+            <div class="w3-row w3-padding-16">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <!-- Add space -->
+    <div class="w3-content w3-row w3-padding-32">
+
+    </div>
+
+
+
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+
+
+    <!-- Footer #1 - Contact Us -->
+    <footer class="w3-row" id="contactus">
+        <div class="w3-half w3-light-grey w3-container" style="height:600px;">
+            <div class="w3-padding-32;" style="padding-left:20px">
+                <img id="logo" src="img/logo.png" alt="CW Logo" style="max-width: 260px; max-height: 300px;">
+                <h5>CALL US</h5>
+                <a href="tel: 1800 000 292">
+                    <h4 style="color:#5E3032;">1800 000 292</h4>
+                </a>
+                <br>
+                <h5>EMAIL</h5>
+                <a href="mailto: hello@cameronwellnesscentre.com.au">
+                    <h4 style="color:#5E3032">hello@cameronwellnesscentre.com.au</h4>
+                </a>
+                <br>
+                <img src="img/locationicon2.png" alt="location" style="max-width:30px; max-height: 30px;">
+                <h5>ADDRESS</h5>
+                <p>Suite 5a/170 Little Malop St, Geelong 3220, Victoria, Australia.</p>
+
+
+            </div>
+        </div>
+        <div class="w3-half w3-light-grey w3-container" style="height:600px">
+            <div class="w3-padding-16">
+                <h3 style="font-weight:bold; padding-left: 16px;">Get In Touch</h3>
+                <form class="w3-container w3-padding-80 " action="/action_page.php" target="_blank">
+                    <div class="w3-section">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" style="width:100%;" required name="Name">
+                    </div>
+                    <div class="w3-section">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" style="width:100%;" required name="Email">
+                    </div>
+                    <div class="w3-section">
+                        <label>Message</label>
+                        <textarea id="message" name="message" style="height:100px; width: 100%;" required name="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer #2 -->
+    <footer class="w3-row" id="bot-footer">
+        <div class="w3-third w3-center w3-black w3-container" style="height:180px;">
+            <div class="w3-padding-64;" style="padding:20px">
+                <img src="img/ndis3.png" alt="NDIS Logo" style="max-width: 80px; max-height: 80px;">
+                <img src="img/Kinaway-Certified-Logo.png" alt="Kinaway" style="max-width:80px; max-height: 80px;">
+                <img src="img/aboriginalFlag.png" alt="Aboriginal Flag" style="max-width:80px; max-height:80px;">
+                <img src="img/torresstraitFlag.png" alt="Torres Strait Flag" style="max-width:80px; max-height: 80px;">
+
+            </div>
+        </div>
+        <div class="w3-third w3-center w3-black w3-container;" style="height:180px;">
+            <p>CONNECT WITH US</p>
+            <p>Keep up to date with what’s happening at the Cameron Wellness Centre.</p>
+            <span><a href="https://www.facebook.com/CameronWellnessCentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://www.instagram.com/cameronwellnesscentre/" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px; padding-right: 12px;"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/cameronwellnesscentre/?original_referer=" class="w3-bar-item w3-button;" target="_blank" style="color:#DF7A00; font-size: 30px;"><i class="fa fa-linkedin"></i></a></span>
+
+        </div>
+        <div class="underhov w3-third w3-center w3-black w3-container;" style="height:180px; padding:57px;">
+            <a href="terms.html" class="w3-black" style="padding-right: 10px;">Terms of Use</a>
+            <a href="privacy.html" class="w3-black" style="padding-left: 10px;">Privacy Policy</a>
+
+        </div>
+    </footer>
+
+    <!-- Footer #3 -->
+    <footer class="w3-container w3-card w3-center w3-black w3-border-top">
+
+        <p class="w3-medium">Copyright <i class="fa fa-copyright "></i> 2023 Cameron Wellness Centre. All rights reserved.</a>
+        </p>
+    </footer>
+
+
+
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01 ").src = element.src;
+            document.getElementById("modal01 ").style.display = "block ";
+            var captionText = document.getElementById("caption ");
+            captionText.innerHTML = element.alt;
+        }
+
+        function myFunction() {
+            var x = document.getElementById("myNavbar ");
+            if (x.className === "topnav2 ") {
+                x.className += " responsive ";
+            } else {
+                x.className = "topnav2 ";
+            }
+        }
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none ";
+        }
+
+        // Back to top button
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        // Accordion with symbols 
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "1000px";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
