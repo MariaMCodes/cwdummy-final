@@ -1,0 +1,12 @@
+# VSCode 
+.vscode/*
+
+
+# Local History for Visual Studio Code
+.history/
+
+# Read Me
+**/README.md
+
+# Images
+**/img
