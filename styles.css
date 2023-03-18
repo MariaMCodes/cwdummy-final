@@ -198,6 +198,13 @@ a {
 }
 
 
+/* Active status for Navigation bar #2 */
+
+.myactive {
+    color: #5E3032;
+}
+
+
 /* ALTERNATE METHOD - Navigation bar #2 
 
 @media screen and (max-width: 600px) {
